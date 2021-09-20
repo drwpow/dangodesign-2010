@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <link rel="stylesheet" type="text/css" href="/mochi.css"/>
+    <link rel="shortcut icon" type="image/ico" href="/favicon.ico"/>
+    <link rel="alternate" type="application/atom+xml" title="dango blog" href="/atom/1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>contact :: dango design</title>
+  </head>
+  <body>
+    <div id="zenbun">
+      <div id="atama"><a href="/" alt="dango design :: since 2008">dango design :: since 2008</a></div>
+      <hr/>
+      <div id="menyu">
+        <div id="homew"><a href="/">HOME</a></div>
+        <div id="portw"><a href="/portfolio">PORTFOLIO</a></div>
+        <div id="mssgb"><a href="/contact">CONTACT</a></div>
+        <div id="blogw"><a href="http://blog.dangodesign.net/">BLOG</a></div>
+        <div id="linkw"><a href="/links">LINKS</a></div>
+      </div>
+      <div id="honbun">
+        <p>Feel free to contact me for any web design, digital graphics, business cards, or artistic work. I&rsquo;m not willing to limit myself, and if you like anything I&rsquo;ve done, I&rsquo;d be happy to help out with literally any project that requires creativity. Don&rsquo;t assume that I can&rsquo;t meet your needs without contacting me; even if I haven&rsquo;t done something before doesn&rsquo;t mean that I won&rsquo;t find a way to meet your goals (and I usually do).</p>
+        <p>And don&rsquo;t feel like you have to hire me if you send me a message; I&rsquo;d just be happy to give advice or answer your question!</p>
+        <form id="messageme" method="post" action="dangomail">
+          <p><label for="namae"><small>Name</small></label><br/>
+          <input type="text" name="namae" class="msgfield" value=""/></p>
+          <p><label for="email"><small>Email</small></label><br/>
+          <input type="text" name="email" class="msgfield" value=""/></p>
+          <p><label for="mssg"><small>Message</small></label><br/>
+          <textarea name="mssg" class="mssg"></textarea></p>
+          <input type="submit" class="msgsend" name="choochoo"/>
+        </form>
+        <script type="text/javascript" src="/karyoku/jquery.js"></script>
+        <script type="text/javascript" src="/karyoku/jquery.validate.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+          $("#messageme").validate({
+            rules: {
+              namae: "required",
+              email: {
+                required: true,
+                email: true},
+              mssg: "required"
+            }
+          });
+        });
+        </script>
+      </div>
+      <hr/>
+    </div>
+  </body>
+</html>

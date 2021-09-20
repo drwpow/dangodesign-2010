@@ -1,0 +1,48 @@
+body {color:#222;margin:0;padding:0;font:12px "Courier New", Courier, monospace;}
+h1 {background:#000;color:#fff;display:block;margin:0;}
+hr {background:#fff;margin:0;border:0;height:0;clear:both;}
+a {color:#0bb;}
+a:hover {color:#fff;background-color:#0dd;text-decoration:none;}
+a:visited {text-decoration:line-through;}
+label.error {padding:0 2px 9px 2px;color:#fff;background-color:#000;}
+small {font:10px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#888;}
+#atama {width:350px;height:120px;background:url('/img/hanami.gif') no-repeat top left;text-indent:-9999px;overflow:hidden;}
+#atama a {display:block;height:120px;}
+#atama a:hover, #menyu div a:hover {background:none;}
+#blogb {background:#000 url('/img/menyu.gif') no-repeat -200px -76px;border:1px }
+#blogw {background:#fff url('/img/menyu.gif') no-repeat 0px -76px;border:1px }
+#gallery a:hover {background-color:#fff;}
+#gallery div {border:1px solid #fff;padding:7px;margin:2px;text-indent:-9999px;overflow:hidden;}
+#gallery div:hover {border-color:#000;}
+#gallery a {display:block;height:1000px;}
+#gallery a:hover {background-color:transparent;}
+#gallery #vv {width:450px;height:268px;background:url('/img/vv.gif') no-repeat 7px 7px;float:left;}
+#gallery #vv:hover {background-position:7px -325px;}
+#gallery #mm {width:200px;height:128px;background:url('/img/mm.gif') no-repeat 7px 7px;float:left;margin-top:140px;}
+#gallery #mm:hover {background-position:7px -165px;}
+#gallery #fdh {width:201px;height:126px;background:url('/img/fdh.gif') no-repeat 7px 7px;float:left;clear:left;}
+#gallery #fdh:hover {background-position:7px -167px;}
+#gallery #dc {width:450px;height:430px;background:url('/img/dc.gif') no-repeat 7px 7px;float:right;margin-right:11px;}
+#gallery #dc:hover {background-position:7px -463px;}
+#gallery #ew {width:200px;height:198px;background:url('/img/ew.gif') no-repeat 7px 7px;float:left;}
+#gallery #ew:hover {background-position:7px -245px;}
+#hello {width:700px;height:1000px;background:url('/img/hello.gif') no-repeat top left;text-indent:-9999px;overflow:hidden;display:block;}
+#homeb {background:#000 url('/img/menyu.gif') no-repeat -200px 0px;border:1px }
+#homew {background:#fff url('/img/menyu.gif') no-repeat 0px 0px;border:1px }
+#honbun {width:700px;float:right;text-align:left;}
+#linkb {background:#000 url('/img/menyu.gif') no-repeat -200px -102px;border:1px }
+#linkw {background:#fff url('/img/menyu.gif') no-repeat 0px -102px;border:1px }
+#menyu {width:204px;text-indent:-1000px;float:left;}
+#menyu div {width:200px;border:2px solid #000;margin:2px 0;}
+#menyu div a {height:30px;display:block;}
+#mssgb {background:#000 url('/img/menyu.gif') no-repeat -200px -50px;border:1px }
+#mssgw {background:#fff url('/img/menyu.gif') no-repeat 0px -50px;border:1px }
+#portb {background:#000 url('/img/menyu.gif') no-repeat -200px -24px;border:1px }
+#portw {background:#fff url('/img/menyu.gif') no-repeat 0px -24px;border:1px }
+#zenbun {width:1000px;margin:0 auto;background:url('/img/bg.gif');}
+.msgfield {width:500px;padding:2px;font:12px "Trebuchet MS", Arial, Helvetica, sans-serif;border:1px solid #999}
+.msgsend {margin:0 0 0 408px;padding:4px 0;border:2px solid #000;width:100px;height:30px;background:#fff url('/img/send.gif') no-repeat 0px 0px;text-indent:-9999px;overflow:hidden;}
+.msgsend:hover {background:#000 url('/img/send.gif') no-repeat 0px -30px;cursor:pointer;}
+.mssg {width:500px;height:150px;padding:2px;font:12px "Trebuchet MS", Arial, Helvetica, sans-serif;border:1px solid #999;}
+.space {margin-bottom:40px;}
+.error {border-color:#000;vertical-align:top;}
